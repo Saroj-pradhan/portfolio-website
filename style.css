@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    color: white;  
+}
+
+.flex{
+    display: flex;
+}
+nav{
+    background-color: rgb(17, 16, 16);
+    
+    color: rgb(9, 202, 9);
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.leftn-row {
+    display: flex;
+    gap: 1rem;
+}
+.leftn-row :hover{
+color: goldenrod;
+}
+.leftn-row img{
+    width:  2.3rem;
+    height: 2.3rem;
+    border:  solid rgb(17, 245, 17);
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex; 
+    gap: 5rem;  
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+   a:hover {
+    color: rgb(5, 247, 5);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ /*  starting home section*/ 
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem;
+    background-color: rgb(31, 28, 28);
+}
+.lefts1-row {
+    text-transform: capitalize ;
+    font-size: larger;  
+    max-width: 28rem;  
+    padding: 0.4rem;
+  
+}
+span{
+    color: rgb(13, 225, 62);
+}
+.social-icon{
+    padding:1rem 0rem;
+    
+}
+.social-icon i{
+    margin-right: 1rem;
+}
+
+.rights1-row{
+
+}
+.rights1-row img{
+   width: 22rem; 
+   height: 22rem;
+   border: 3px solid rgb(17, 245, 17);
+   border-radius: 50%;
+   margin-right:2rem ;
+}
